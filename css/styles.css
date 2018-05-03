@@ -355,6 +355,8 @@ form {
 
 
 
+
+
  
 .checkbox {
   position: relative;
@@ -435,6 +437,11 @@ background-image: linear-gradient(90deg, #dbe1f1 0%, #7991cb 100%);
 
 
 
+.text-res {
+	text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 
 
@@ -505,6 +512,12 @@ background-image: linear-gradient(90deg, #dbe1f1 0%, #7991cb 100%);
 	.card__btn-wrap {
 		float: left;
     	text-align: left;
+	}
+
+	.text-res {
+		text-align: right;
+	    padding-left: 50px;
+	    padding-right: 50px;
 	}
 
 
