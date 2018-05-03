@@ -21,16 +21,28 @@
 			<header class="card__title">מערכת ניהול מסמכים</header>
 
 			<div class="login-inputs">
-			<input type="text" placeholder="שם משתמש">
-			<input type="password" placeholder="סיסמא">
+			<div class="login-inputs-wrap">
+				<input type="text" placeholder="שם משתמש">
+				<img src="img/email_icon.png">
+			</div>
+
+			<div class="login-inputs-wrap">
+				<input type="password" placeholder="סיסמא">
+				<img style="width: 21px;" src="img/password_icon.png">
+			</div>
 			</div>
 
 			<footer class="card__footer">
 				
-				<div class="card__check-wrap">		
-				<input type="checkbox" name="checkbox" id="login-checkbox" value="1">	
-				<label class="login-label" for="login-checkbox">זכור אותי</label>
-				</div>
+			<!-- 	<div class="card__check-wrap checkbox">	
+				<label class="login-label checkbox-label" for="login-checkbox">זכור אותי</label>	
+				<input class="checkbox-input" type="checkbox" name="checkbox" id="login-checkbox" value="1">
+				</div> -->
+
+				   <div class="card__check-wrap checkbox">
+				    <input class="checkbox-input mod-check" type="checkbox" id="checkbox-1">
+				    <label class="checkbox-label" for="checkbox-1">זכור אותי</label>
+				  </div>
 
 				<div class="card__btn-wrap">
 				<button class="btn-green">התחברות >></button>
