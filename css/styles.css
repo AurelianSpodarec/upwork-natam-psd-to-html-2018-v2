@@ -13,6 +13,12 @@ body {
 	padding: 0;
 	background-size: cover;
     background-position: center;
+
+}
+
+.table {
+	    display: table;
+	    width: 100%;
 }
 
 h1, h2,h3,h4,h5, h6, p {
@@ -479,30 +485,23 @@ button {
 		    left: 0;
 		    top: 5px;
 		}
-			.vertical-mid {
+		.vertical-mid {
 		    vertical-align: middle;
-		    text-align: center;
-		    position: relative;
-		    top: 50%;
-			width: 90%;
-		    left: 50%;
-		    -webkit-transform: translate(-50%, -69%);
-		    -ms-transform: translate(-50%, -69%);
-		    transform: translate(50%, -69%);
-		    right: 50%;
+    text-align: center;
+    position: relative;
+    
+    width: 90%;
+    display: table-cell;
+    vertical-align: middle;
 		}
 		.vertical-mid-pg {
 			vertical-align: middle;
-		    text-align: center;
-		    position: relative;
-		    /* top: 50%; */
-		    width: 90%;
-		    bottom: 50%;
-		    left: 50%;
-		    -webkit-transform: translate(-50%, -69%);
-		    -ms-transform: translate(-50%, -69%);
-		    transform: translate(50%, 69%);
-		    right: 50%;
+    text-align: center;
+    position: relative;
+    
+    width: 90%;
+    display: table-cell;
+    vertical-align: middle;
 	
 		}
 }
